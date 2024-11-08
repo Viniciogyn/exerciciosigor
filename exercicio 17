@@ -1,0 +1,49 @@
+exercicio 17
+
+# class Empresa:
+#     def __init__ (self,nome,numero_funcionarios):
+#         self.__nome = nome 
+#         self.__numero_funcionarios = numero_funcionarios
+        
+#     def get_nome (self):
+#         return self.__nome
+    
+#     def set_nome (self,nome):
+#         if nome.strip ():
+#             return self.__nome
+        
+#         else:
+#             print("Nome da empresa nao identificado!")
+            
+#     def get_funcionarios (self):
+#         if self.__numero_funcionarios > 0:
+#             return self.__numero_funcionarios
+        
+#         else:
+#             print("Numero de funcionarios nao identificado ('valor nao pode ser igual ou menor a 0')")
+    
+#     def set_funcionarios (self,numero_funcionarios):
+#         if self.__numero_funcionarios > 0:
+#             self.__numero_funcionarios = numero_funcionarios
+        
+#         else:
+#             print("Numero de funcionarios nao identificado ('Valor nao pode ser igual ou menor a 0')")
+
+# nome_empresa = input("Digite o nome da empresa solicitada: ")
+# numero_funcionarios = int(input("Digite o numero de funcionarios ativos na empresa: "))
+
+# empresa = Empresa (nome_empresa,numero_funcionarios)
+
+# print("cadastro efetuado com sucesso!")
+
+# print(f"A empresa : {empresa.get_nome()}, possui o total de: {empresa.get_funcionarios()} ativos em sua empresa!")
+
+# print("Cadastro de nova empresa!")
+# novo_nome = input("Digite o nome da empresa solicitada: ")
+# empresa.set_nome(novo_nome)
+# novo_numero = int(input("Digite o numero de funcionarios ativos na empresa: "))
+# empresa.set_funcionarios(novo_numero)
+
+# print("cadastro efetuado com sucesso!")
+
+# print(f"A empresa : {empresa.get_nome()}, possui o total de: {empresa.get_funcionarios()} ativos em sua empresa!")
