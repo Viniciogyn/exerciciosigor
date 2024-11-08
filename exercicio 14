@@ -1,0 +1,41 @@
+ exercicio 14
+# class Computador:
+#     def __init__ (self,memoria_ram):
+#         self.set_memoria_ram (memoria_ram)
+        
+#     def get_memoria_ram (self):
+#         return self.__memoria_ram 
+
+        
+    
+#     def set_memoria_ram (self,memoria_ram):
+#         if memoria_ram > 0:
+#             self.__memoria_ram = memoria_ram
+#         else:
+#             print("Memoria nao detectada! valor precisa ser maior que '0'")
+#             self.__memoria_ram = 0
+            
+# def obter_memoria():
+#     while True:
+#         try:
+#             memoria_ram = int(input("Digite a velocidade do seu veículo: "))
+#             if memoria_ram > 0:
+#                 return memoria_ram 
+#             else:
+#                 print("Erro: O valor precisa ser maior que zero. Tente novamente.")
+#         except ValueError:
+#             print("Erro: Entrada inválida. Por favor, insira um número inteiro.")
+
+# memoria_ram = obter_memoria()
+
+# computador = Computador (memoria_ram)
+
+# print("Capacidade da memoria adicionado com sucesso!")
+# print(f"A capacidade da memoria ram é de : {computador.get_memoria_ram()}.")
+
+# nova_memoria = obter_memoria()
+# computador.set_memoria_ram (nova_memoria)
+
+# print("nova capacidade de memoria adicionada com sucesso!")
+
+# print(f"A nova capacidade da memoria ram é de : {computador.get_memoria_ram()}.")
