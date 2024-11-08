@@ -1,0 +1,32 @@
+# Exercicio 1 
+
+# class Pessoa:
+#     def __init__(self,nome,idade):
+#         self.__nome = nome 
+#         self.__idade = idade 
+        
+#     def get_nome (self):
+#         return self.__nome
+    
+#     def get_idade (self):
+#         return self.__idade
+    
+#     def set_nome (self, nome):
+#         if nome.strip ():
+#             self.nome = nome
+#         else:
+#             print("Nome não identificado!")
+    
+#     def set_idade (self,idade):
+#         if idade >= 0:
+#             self.__idade = idade
+#         else:
+#             print("Idade nao identificada ('Idade não pode ser negativa')")
+
+# nome_usuario = input("Digite seu nome completo: ")
+# idade_usuario = int(input("Digite sua idade: "))
+
+# pessoa = Pessoa(nome_usuario,idade_usuario)
+
+# print(f"Nome do usuario: {pessoa.get_nome()}")
+# print(f"idade do usuario: {pessoa.get_idade()}, anos de idade!")
