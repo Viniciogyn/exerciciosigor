@@ -1,0 +1,45 @@
+ exercicio 19
+
+# class Cidade:
+#     def __init__ (self,nome, populacao):
+#         self.__nome = nome 
+#         self.__populacao = populacao
+        
+#     def get_nome (self):
+#         return self.__nome
+    
+#     def set_nome (self,nome):
+#         if nome.strip ():
+#             self.__nome = nome
+#         else:
+#             print("Nome de cidade nao encontrado!")
+    
+#     def get_população (self):
+#         return self.__populacao
+    
+#     def set_populacao (self,populacao):
+#         if populacao >= 0:
+#             self.__populacao = populacao
+            
+#         else:
+#             print("Numero de populaçao invalida ('numero nao pode ser menor que 0')")
+
+# nome_cidade = input("Digite o nome da cidade que deseja cadastrar: ")
+# populacao_cidade = float(input("Digite a quantidade de habitantes da cidade: "))
+
+# cidade = Cidade (nome_cidade, populacao_cidade)
+
+# print ("Cidade cadastrada com sucesso!")
+
+# print (f"Cidade: {cidade.get_nome()}, com o total de: {cidade.get_população()} habitantes, foi cadastrada com sucesso!")
+
+# print ("Cadastro da proxima cidade")
+
+# novo_nome = input("Digite o nome da cidade que deseja cadastrar: ")
+# cidade.set_nome (novo_nome)
+# nova_populacao = float(input("Digite a quantidade de habitantes da cidade: "))
+# cidade.set_populacao (nova_populacao)
+
+# print ("Cadastro de cidade concluida com sucesso")
+
+# print(f"A cidade de: {cidade.get_nome()}, com o total de: {cidade.get_população()} habitantes, foi cadastrada com sucesso!")
