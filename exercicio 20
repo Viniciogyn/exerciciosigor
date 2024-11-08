@@ -1,0 +1,44 @@
+ exercicio 20
+
+# class Professor:
+#     def __init__ (self, nome, disciplina):
+#         self.__nome = nome 
+#         self.__disciplina = disciplina 
+        
+#     def get_nome (self):
+#         return self.__nome
+    
+#     def set_nome (self,nome):
+#         if nome.strip():
+#             self.__nome = nome
+#         else:
+#             print("Nome de professor nao encontrado!")
+            
+#     def get_disciplina (self):
+#         return self.__disciplina
+    
+#     def set_disciplina (self, disciplina):
+#         if disciplina.strip():
+#             self.__disciplina = disciplina
+#         else:
+#             print("Disciplina não encontrada!")
+            
+# nome_professor = input("Digite o nome do professor que deseja cadastrar: ")
+# disciplina_professor = input("Digite a disciplina lecionada pelo professor: ")
+
+# professor = Professor (nome_professor,disciplina_professor)
+
+# print("Professor cadastrado com sucesso!")
+
+# print(f"O professor: {professor.get_nome()}, que leciona a disciplina: {professor.get_disciplina()}, foi cadastrado com sucesso!")
+
+# print("Cadastro de novo professor!")
+
+# novo_nome = input("Digite o nome do professor que deseja cadastrar: ")
+# professor.set_nome(novo_nome)
+# nova_disciplina = input("Digite a disciplina lecionada pelo professor: ")
+# professor.set_disciplina(nova_disciplina)
+
+# print("Professor cadastrado com sucesso!")
+
+# print(f"O professor: {professor.get_nome()}, que leciona a disciplina: {professor.get_disciplina()}, foi cadastrado com sucesso!")
