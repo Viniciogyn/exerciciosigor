@@ -1,0 +1,28 @@
+ exercicio 11 
+
+
+# class Animal:
+#     def __init__(self,idade):
+#        self.__idade = idade
+       
+#     def get_idade(self):
+#         if self.__idade >= 0:
+#             return self.__idade 
+        
+#         else:
+#             print("Idade nao pode ser negativa!")
+    
+#     def set_idade (self,idade):
+#         if self.__idade >= 0 :
+#             self.__idade = idade
+        
+#         else:
+#             print("Idade nao pode ser negativa!")
+            
+# idade_animal = int(input("Insira a idade do seu animal: "))
+
+# animal = Animal (idade_animal)
+
+# print ("Idade do animal adicionado com sucesso!")
+
+# print (f"Seu animal tem {animal.get_idade()} anos de idade!")
