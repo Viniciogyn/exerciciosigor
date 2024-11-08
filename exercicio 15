@@ -1,0 +1,38 @@
+exercicio 15
+
+# class Curso:
+#     def __init__ (self, nome, duraçao):
+#         self.__nome = nome 
+#         self.__duraçao = duraçao
+        
+#     def get_nome (self):
+#         return self.__nome
+
+#     def set_nome (self, nome):
+#         if nome.strip ():
+#             self.__nome = nome
+#         else:
+#             print (" Nome de curso nao encontrado!")
+    
+#     def get_duraçao (self):
+#         return self.__duraçao
+    
+#     def set_duraçao (self,duraçao):
+#         if duraçao.strip ():
+#             self.__duraçao = duraçao
+#         else:
+#             print ("Valor de duração de curso nao identificado!")
+
+# nome_curso = input("Digite o nome do curso: ")
+# duracao_curso = int(input("Digite a duraçao em horas desse curso: "))
+
+# curso = Curso (nome_curso,duracao_curso)
+
+# print  (f"Você está cursando: {curso.get_nome()}, com a duração de: {curso.get_duraçao()} horas.")
+
+# novo_curso = input("Digite o nome do proximo curso: ")
+# curso.set_nome(novo_curso)
+# nova_duraçao = int(input("Digite a duraçao em horas desse curso: "))
+# curso.set_duraçao (nova_duraçao)
+
+# print  (f"Você mudou seu curso para: {curso.get_nome()}, com a duração de: {curso.get_duraçao()} horas.")
