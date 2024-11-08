@@ -1,0 +1,42 @@
+exercicio 13
+
+# class Veiculo:
+#     def __init__ (self,velocidade_maxima):
+#         self.set_velocidade_maxima (velocidade_maxima)
+        
+#     def get_velocidade_maxima (self):
+#         return self.__velocidade_maxima 
+
+        
+    
+#     def set_velocidade_maxima (self,velocidade_maxima):
+#         if velocidade_maxima > 0:
+#             self.__velocidade_maxima = velocidade_maxima
+#         else:
+#             print("velocidade maxima nao detectada! velocidade precisa ser maior que '0'")
+#             self.__velocidade_maxima = 0
+            
+# def obter_velocidade():
+#     while True:
+#         try:
+#             velocidade_maxima = int(input("Digite a velocidade do seu veículo: "))
+#             if velocidade_maxima > 0:
+#                 return velocidade_maxima 
+#             else:
+#                 print("Erro: A velocidade precisa ser maior que zero. Tente novamente.")
+#         except ValueError:
+#             print("Erro: Entrada inválida. Por favor, insira um número inteiro.")
+
+# velocidade_maxima = obter_velocidade()
+
+# veiculo = Veiculo (velocidade_maxima)
+
+# print("Velocidade maxima do veiculo adicionado com sucesso!")
+# print(f"A velocidade maxima do veiculo é de : {veiculo.get_velocidade_maxima()} km por hora!")
+
+# nova_velocidade = obter_velocidade()
+# veiculo.set_velocidade_maxima (nova_velocidade)
+
+# print("nova velocidade maxima adicionada com sucesso!")
+
+# print(f"A nova velocidade maxima do veiculo é de: {veiculo.get_velocidade_maxima()} km por hora!")
