@@ -1,0 +1,43 @@
+exercicio 12 
+
+# class Estudante :
+#     def __init__(self, nome, matricula ):
+#         self.__nome = nome 
+#         self.__matricula = matricula
+        
+#     def get_nome (self):
+#         return self.__nome
+    
+#     def set_nome (self,nome):
+#         if nome.strip ():
+#             self.__nome = nome
+#         else:
+#             print("Nome de aluno nao encontrado!")
+    
+#     def get_matricula (self):
+#         return self.__matricula
+    
+#     def set_matricula (self,matricula):
+#         if matricula >= 0:
+#             self.__matricula = matricula
+#         else:
+#             print("Matricula invalida!")
+            
+# nome_aluno = input("Digite o nome completo do aluno: ")
+# matricula_aluno = int(input(" Digite o numero de matricula do aluno: "))
+
+# estudante = Estudante(nome_aluno,matricula_aluno)
+
+# print ("Aluno inserido com sucesso!")
+
+# print(f"Aluno: {estudante.get_nome()},Numero de matricula: {estudante.get_matricula()}")
+
+# print("insira novo nome e nova matricula de aluno existente:")
+
+# novo_nome = input("Digite o nome completo do aluno: ")
+# estudante.set_nome (novo_nome)
+# nova_matricula = int(input("Digite o numero de matricula do aluno: "))
+# estudante.set_matricula (nova_matricula)
+
+# print ("Nome modificado com sucesso!")
+# print(f"Aluno: {estudante.get_nome()},Numero de matricula: {estudante.get_matricula()}")
