@@ -1,0 +1,67 @@
+EXERCICIO 4
+
+
+# class ContaBancaria:
+#     def __init__(self,saldo):
+#         self.__saldo = saldo
+    
+    
+#     def get_saldo (self):
+#         return self.__saldo
+    
+#     def set_depositar(self,valor):
+#         if valor > 0:
+#             self.__saldo += valor
+#             print(f"Deposito de R${valor}, realizado com sucesso!")
+#         else:
+#             print("Valor de deposito deve ser positivo!")
+    
+#     def set_sacar (self,valor):
+#         if valor > 0 :
+#             if valor <= self.__saldo:
+#                 self.__saldo -= valor
+#                 print(f" Saque de R$ {valor} Reais, efetuado com sucesso!")
+#             else:
+#                 print(f"Saldo insuficiente, por favor tente novamente!")
+#         else:
+#             print(f" Valor do saque nao pode ser negativo!")
+    
+#     def consultar_saldo (self):
+#         return self.__saldo
+    
+
+# saldo = float(input("Informe o saldo inicial da sua conta: "))
+
+# resposta = 's'
+# while resposta != 'n':
+
+#     conta = ContaBancaria(saldo)
+#     print (" Selecione uma opção de operação:")
+#     print (" Digite 1 para deposito em conta corrente.")
+#     print (" Digite 2 para saque em conta corrente.")
+#     print (" Digite 3 para saldo de conta corrente. ")
+#     print (" Digite 4 para sair das operaçoes.")
+
+#     escolha = input("Digite o numero da opção desejada: ")
+#     if escolha == '1':
+#             valor_deposito = float(input(" Informe o valor que deseja depositar em conta corrente: R$"))
+#             saldo = valor_deposito + saldo
+#             conta.set_depositar(valor_deposito)
+
+#     elif escolha == '2':
+#             valor_saque = float(input(" Informe o valor que deseja sacar de sua conta corrente: R$"))
+#             saldo = saldo - valor_saque
+#             conta.set_sacar(valor_saque)
+
+#     elif escolha == '3':
+#             print(f" Saldo atual é de : R$ {conta.consultar_saldo()}")
+
+#     elif escolha == '4':
+#             print("operação encerrada.")
+        
+#     else:
+#         print(" opção invalida, escolha uma opção valida.")
+
+#     resposta = input("Deseja repetir (s ou n): ").lower
+#     if resposta == 'n':
+#          print("operação encerrada.")
