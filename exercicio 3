@@ -1,0 +1,45 @@
+ class Carro:
+#     def __init__ (self, modelo, cor):
+#         self.__modelo = modelo 
+#         self.__cor = cor 
+    
+    
+#     def get_modelo (self):
+#         return self.__modelo
+    
+#     def get_cor (self):
+#         return self.__cor
+    
+#     def set_modelo (self,modelo):
+#         if modelo.strip():
+#             self.__modelo = modelo 
+#         else:
+#             print ("modelo de carro nao identificado.")
+
+#     def set_cor (self,cor):
+#         if cor.strip():
+#             self.__cor = cor 
+#         else:
+#             print ("cor do carro nao identificado.")
+        
+# modelo_carro = input("Digite o modelo do seu carro: ")
+# cor_carro = input("Digite a cor do seu carro: ")
+
+# carro = Carro (modelo_carro, cor_carro)
+
+# print (f" O modelo do carro é : {carro.get_modelo()}")
+# print (f" A cor do carro é: {carro.get_cor()}")
+
+# novo_carro = input("Digite O novo modelo do seu carro: ")
+# carro.set_modelo (novo_carro)
+
+# print (f"O novo modelo do carro é: {carro.get_modelo()}")
+
+# nova_cor = input("Digite a nova cor do seu carro: ")
+# carro.set_cor (nova_cor)
+
+# print (f" A nova cor do seu carro é: {carro.get_cor()}")
+
+
+
+
