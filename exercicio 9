@@ -1,0 +1,82 @@
+EXERCICIO 9
+
+
+# class Casa:
+#     def __init__(self,endereço,bairro, cidade, estado, valor):
+#         self.__endereço = endereço 
+#         self.__valor = valor
+#         self.__bairro = bairro
+#         self.__cidade = cidade 
+#         self.__estado = estado 
+        
+#     def get_endereço (self):
+#         return self.__endereço
+    
+#     def set_endereço (self,endereço):
+#         if endereço.strip ():
+#             self.__endereço = endereço
+#         else:
+#             print("Endereço invalido!")
+            
+#     def get_bairro (self):
+#         return self.__bairro
+    
+#     def set_bairro (self, bairro):
+#         if bairro.strip ():
+#             self.__bairro = bairro 
+#         else:
+#             print("Bairro nao localizado!")
+    
+#     def get_cidade (self):
+#         return self.__cidade
+    
+#     def set_cidade (self,cidade):
+#         if cidade.strip ():
+#             self.__cidade = cidade 
+#         else:
+#             print("Cidade nao localizada!")
+            
+#     def get_estado (self):
+#         return self.__estado
+    
+#     def set_estado (self,estado):
+#         if estado.strip ():
+#             self.__estado = estado
+#         else:
+#             print(" Estado nao localizado!")
+    
+#     def get_valor (self):
+#         return self.__valor
+    
+#     def set_valor (self,valor):
+#         if valor >= 0:
+#             self.__valor = valor
+#         else:
+#             print("Valor nao pode ser negativo!")
+            
+# endereco_casa = input("Digite o endereço da casa à venda: ")
+# bairro_casa = input("Digite o bairro da casa à venda: ")
+# cidade_casa = input("Digite a cidade da casa à venda: ")
+# estado_casa = input("Digite o estado da casa à venda: ")
+# valor_casa = float(input("Digite o valor da casa à venda: "))
+
+# casa = Casa (endereco_casa,bairro_casa,cidade_casa,estado_casa,valor_casa)
+
+# print("Casa adicionada com sucesso!")
+# print(f"Casa à venda localizado na {casa.get_endereço},\nbairro : {casa.get_bairro},\nna cidade de : {casa.get_cidade},\nno estado de: {casa.get_estado},\n pelo valor de : R$ {casa.get_valor:,.3f} reais ")
+
+# print ("Insira os dados da nova casa no sistema!")
+
+# novo_endereco = input("Digite o endereço da casa à venda: ")
+# casa.set_endereço
+# novo_bairro = input("Digite o bairro da casa à venda: ")
+# casa.set_bairro
+# nova_cidade = input("Digite a cidade da casa à venda: ")
+# casa.set_cidade
+# novo_estado = input("Digite o estado da casa à venda: ")
+# casa.set_estado
+# novo_valor = float(input("Digite o valor da casa à venda: "))
+# casa.set_valor
+
+# print(" Nova casa adicionada com sucesso!")
+# print(f"Casa à venda localizado na {casa.set_endereço},\nbairro : {casa.set_bairro},\nna cidade de : {casa.set_cidade},\nno estado de: {casa.set_estado},\n pelo valor de : R$ {casa.set_valor:,.3f} reais ")
