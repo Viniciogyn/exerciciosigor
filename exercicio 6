@@ -1,0 +1,41 @@
+ EXERCICIO 6
+
+
+class Produto:
+    def __init__(self,produto,preco):
+        self.__produto = produto
+        self.__preco = preco
+        
+    def get_produto (self):
+        return self.__produto
+    
+    def get_preco (self):
+        return self.__preco
+    
+    def set_produto (self, produto):
+        if produto.strip ():
+            self.__produto = produto
+        else:
+            print("Nome do produto não identificado!")
+    
+    def set_preco (self,preco):
+        if preco >= 0:
+            self.__preco = preco
+        else:
+            print(" Valor nao identificada (' Valor não pode ser negativo')")
+
+nome_produto = input("Digite nome do produto: ")
+preco_produto = float(input("Digite o preço do produto: "))
+
+produto = Produto(nome_produto,preco_produto)
+
+print (f"Nome do produto: {produto.get_produto()}")
+print (f'Preço do produto: {produto.get_preco():,.3f} Reais!')
+
+novo_produto = input("Digite o nome do novo produto a ser inserido")
+produto.set_produto (novo_produto)
+novo_preco = float(input("Digite o novo preço do produto: "))
+produto.set_preco (novo_preco)
+
+print (f"Nome do produto: {produto.get_produto()}")
+print (f'Preço do produto: {produto.get_preco():,.3f} Reais!')
