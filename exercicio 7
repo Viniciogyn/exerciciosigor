@@ -1,0 +1,44 @@
+EXERCICIO 7
+
+
+# class Livro:
+#     def __init__(self, titulo, autor):
+#         self.__titulo = titulo
+#         self.__autor = autor 
+    
+#     def get_titulo (self):
+#         return self.__titulo
+    
+#     def set_titulo (self, titulo):
+#         if titulo.strip ():
+#             self.__titulo = titulo
+#         else:
+#             Print(" Titulo do livro nao identificado!")
+    
+#     def get_autor (self):
+#         return self.__autor
+    
+#     def set_autor (self, autor):
+#         if autor.strip ():
+#             self.__autor = autor
+#         else:
+#             print("Autor do livro não identificado")
+
+# titulo_livro = (input(" Digite o titulo do livro que deseja adicionar: "))
+# autor_livro = (input("Digite o autor do livro que deseja adicionar: "))
+
+# livro = Livro (titulo_livro,autor_livro)
+
+# print("Livro adicionado com sucesso!")
+# print(f" Titulo do livro adicionado {livro.get_titulo}")
+# print(f" Autor do livro adicionado {livro.get_autor}")
+
+
+# novo_titulo = (input(" Digite o titulo do novo livro que deseja adicionar: "))
+# livro.set_titulo(novo_titulo)
+# novo_autor = (input("Digite o autor do novo livro que deseja adicionar: "))
+# livro.set_autor(novo_autor)
+
+# print("Novo livro adicionado com sucesso!")
+# print(f" Titulo do livro adicionado {livro.set_titulo}")
+# print(f" Autor do livro adicionado {livro.set_autor}")
