@@ -1,0 +1,56 @@
+exercicio 10
+
+
+# class Celular:
+#     def __init__(self,marca,modelo, avaria):
+#         self.__marca = marca 
+#         self.__modelo = modelo
+#         self.__avaria = avaria
+
+#     def get_marca (self):
+#         return self.__marca 
+
+#     def set_marca (self,marca):
+#         if marca.strip ():
+#             self.__marca = marca
+#         else:
+#             print(" marca de celular nao encontrado! ")
+
+#     def get_modelo (self):
+#         return self.__modelo
+    
+#     def set_modelo (self,modelo):
+#         if modelo.strip () :
+#             self.__modelo = modelo
+#         else:
+#             print(" Modelo de celular nao encontrado!")
+
+#     def get_avaria (self):
+#         return self.__avaria
+
+#     def set_avaria (self,avaria):
+#         if avaria.strip ():
+#             self.__avaria = avaria
+#         else:
+#             print("Avaria nao detectada")
+
+# marca_celular = input("Insira a marca do celular: ")
+# modelo_celular = input("Insira o modelo do celular: ")
+# avaria_celular = input("Infomr a avaria detectada: ")
+
+# celular = Celular (marca_celular,modelo_celular,avaria_celular)
+
+# print("Celular classificado com sucesso!")
+# print (f"Celular da marca: {celular.get_marca()}, do modelo: {celular.get_modelo()}, foi detectado a avaria: {celular.get_avaria()}.")
+
+# print("Celular adicionado com sucesso a garantia!")
+
+# nova_marca = input(" Insira a marca do celular: ")
+# celular.set_marca (nova_marca)
+# novo_modelo = input("Insira o modelo do celular: ")
+# celular.set_modelo (novo_modelo)
+# nova_avaria = input("Informe a avaria detectada: ")
+# celular.set_avaria (nova_avaria)
+# print("Celular classificado com sucesso!")
+
+# print(f"Celular da marca: {celular.get_marca()}, do modelo: {celular.get_modelo()}, foi detectado a avaria: {celular.get_avaria()}.")
