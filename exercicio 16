@@ -1,0 +1,24 @@
+exercicio 16
+
+# class Jogo:
+#     def __init__(self,pontos):
+#         self.__pontos = pontos
+        
+#     def get_ponto (self):
+#         return self.__pontos
+    
+#     def set_ponto (self, pontos):
+#         self.__pontos = pontos
+
+# pontuacao = float(input("Qual seu recorde de pontos no jogo? "))
+
+# jogo = Jogo(pontuacao)
+
+# print(f"Seu recorde de pontos no jogo é de: {jogo.get_ponto()} pontos!")
+
+# print("Vamos analisar seu novo recorde?")
+
+# nova_pontuacao = float(input("Qual seu novo recorde de pontos no jogo? "))
+# jogo.set_ponto (nova_pontuacao)
+
+# print(f"Seu novo recorde de pontos no jogo é de: {jogo.get_ponto()} pontos!")
